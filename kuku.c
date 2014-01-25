@@ -13,4 +13,5 @@ int main()
 			printf("%d\n",(i+1)*(j+1));
 		}
 	}
+	return 0;
 }
