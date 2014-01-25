@@ -3,10 +3,11 @@
 int main ()
 {
 	char c[100];
+	
 
 	while((fgets(c,100,stdin)) != EOF)
 	{
-		if(!isspace(c))
+		if(isspace(c))
 		{
 			printf("%s",c);
 		}
@@ -15,5 +16,3 @@ int main ()
 	return 0;
 
 } 
-
-
